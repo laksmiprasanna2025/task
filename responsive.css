@@ -1,0 +1,206 @@
+@media (max-width:1200px){
+    .container {
+        max-width:600px;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;  
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+}
+@media (max-width:1024px) {
+    body {
+    background-color:  rgb(18, 178, 231);
+    }
+    .header{
+        align-items: center;
+        padding:20px;
+    }
+    .nav a  {
+        margin:10px;  
+        display:flex;     
+    }
+    .banner {
+        padding: 30px;
+        text-align:center;
+        display:flex;
+    }
+    .banner-text {
+        padding:5px;
+    } 
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .header-img {
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    .head {
+        text-align: center;
+        display: flex;
+    }
+    .head-text {
+        padding: 0%;
+    }
+    .video-section {
+        height:300px;
+        text-align: center;
+        display: flex;
+        margin: 50px  0;
+        background-size: cover;
+        justify-content: center;
+    }
+    .stat-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .topnav {
+        overflow: bottom;
+    }
+}
+@media(max-width:992px){
+    .grid{
+        grid-template-columns: 1fr ;
+     }
+     .vedio-section {
+        height:250px;
+     }
+     .stat-grid {
+        grid-template-columns: 1fr 1fr ;
+        display: grid;
+     }
+}
+@media (max-width:768) {
+    .header {
+        flex-direction:column;
+        align-items: center;
+        display: flex;
+    }
+    .logo.xapo-logo {
+        font-size:20px;
+    }
+    .nav a {
+        margin: auto;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .banner-text p {
+        font-size: 25px;
+    }
+    .grid{
+    grid-template-columns: 1fr;
+    }
+    .card {
+        border-radius: 10px;
+    }
+    .head-text h2 {
+       font-size: 30px;
+    }
+    .head-img img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .stat-grid {
+         grid-template-columns: auto;
+    }
+    .vedio-section {
+        height: 250px;
+    }   
+    .overlay-content h1 {
+        font-size: 20px;
+    }
+    .icon-stat {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+@media (max-width:600px) {
+    .banner-text h1 {
+        font-size:20px;
+    }
+    .banner-text p{
+        font-size: 15px;
+    }
+    .head-img img {
+        height: 250px;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width:425px){
+    @media screen and (max-width: 425px) {
+  .topnav a {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-top: 20px;
+
+  }
+
+  .button-group button {
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+}
+@media (max-width: 320px) {
+  body {
+    background-color: #f9f9f9;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .head-text {
+    display: flex;
+    font-size: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+}
